@@ -1,11 +1,10 @@
-import { Button, buttonVariants } from "@/components/ui/button";
-import { FaArrowDown } from "react-icons/fa6";
+
 import Image from "next/image";
 import { TextGenerateEffect } from "@/components/text-generate-effect";
 import { montserrat } from "@/ui/fonts";
 import AccordionHorario from "@/components/Accordion-horario";
-import { Montserrat } from "next/font/google";
 import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
 
 export default function Home() {
 
@@ -40,7 +39,7 @@ export default function Home() {
             <h1 className={`${montserrat.className} antialiased`}>
               <TextGenerateEffect words="DON&apos;T DREAM FOR IT, TRAIN FOR IT." className="text-6xl md:text-8xl font-black drop-shadow-lg tracking-tight leading-none sm:max-w-6xl text-center text-white" />
             </h1>
-            <p className=" text-green-700 italic font-semibold tracking-tight text-center">Entrenamientos personalizados para mejorar tu salud o rendimiento deportivo.</p>
+            <p className=" text-green-700 italic font-semibold tracking-tight leading-tight text-xs sm:text-md text-center">Entrenamientos personalizados para mejorar tu salud o rendimiento deportivo.</p>
           </div>
           <div className="flex gap-3">
             <Link href='/services' className={buttonVariants({ variant: 'default' })}>Información</Link>

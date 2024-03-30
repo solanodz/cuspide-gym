@@ -53,7 +53,7 @@ const AboutPage = () => {
                                 Cúspide te brinda un espacio muy familiar y amigable, donde podrás entrenar con la tranquilidad de que siempre habrá alguien para ayudarte con tus entrenamientos.
                             </p>
                             <p>
-                                Nuestros entrenadores están capacitados para ayudarte a lograr tus objetivos, ya sea mejorar tu salud o rendimiento deportivo. Confían y confiaron en nosotros deportistas amateurs y deportistas de ato nivel como jugadores de fútbol, rugby, hockey, golf, entre otros. También personas que buscan mejorar su calidad de vida y salud. Edades de entre 10 y hasta 86 años. Sabemos sobre entrenamiento, salud y deporte.
+                                Nuestros entrenadores están capacitados para ayudarte a lograr tus objetivos, ya sea mejorar tu salud o rendimiento deportivo. Confían y confiaron en nosotros deportistas amateurs y deportistas de alto nivel, como jugadores de fútbol, rugby, hockey, golf, entre otros. También personas que buscan mejorar su calidad de vida y salud. Tuvimos la experiencia de trabajar con personas de entre 10 y hasta 80 años. Sabemos sobre entrenamiento, salud y deporte siempre pensando en ayudar a nuestros clientes a cumplir sus objetivos.
                             </p>
                         </div>
                     </div>

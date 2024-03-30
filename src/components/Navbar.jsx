@@ -27,11 +27,11 @@ const Navbar = () => {
                             Servicios
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href="/prices" className={`${pathName === '/prices' ? 'bg-transparent text-green-700 font-semibold' : ''} p-1 px-2  rounded-full hover:text-green-700 duration-200`}>
                             Promociones
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </div>
