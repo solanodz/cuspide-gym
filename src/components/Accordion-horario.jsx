@@ -19,7 +19,7 @@ const AccordionHorario = () => {
                 <AccordionTrigger className='text-xl font-bold text-green-700'>Sábados y feriados</AccordionTrigger>
                 <AccordionContent>
                     Los sabados y feriados el horario es cortado. <span className="font-semibold">De 08:00 a 12:00 horas por la mañana y de 16:00 a 21:00 horas por la tarde.</span> Tambien contamos con entrenadores en estos días para ayudarte.
-                    <div className="my-4 bg-green-950 rounded-md text-dm text-green-600  px-2 py-1 flex flex-col gap-1"><IoIosWarning className="text-xl min-w-6" /> Los horarios pueden estar sujeto a modificaciones los días sábados y feriados. Consultar a través de Instagram o WhatsApp</div>
+                    <div className="my-4 bg-green-950 rounded-md text-dm text-green-600  px-2 py-1 flex flex-col gap-1"><IoIosWarning className="text-xl min-w-6" /> Los horarios pueden estar sujeto a modificaciones los días sábados y feriados. Consultar a través de Instagram o WhatsApp.</div>
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -37,7 +37,7 @@ const AccordionHorario = () => {
                     </ul>
                     <div className="bg-green-950 p-3 rounded-md mt-1">
                         <h4 className="mb-1 text-green-600 font-semibold">¿Qué son las clases de fucional?</h4>
-                        Son clases grupales, dinámicas, compuestas por distintos circuito de ejercicios que se realizan por tiempo o repeticiones donde se trabaja todo el cuerpo. Se realizan ejercicios de fuerza, resistencia y flexibilidad. Son clases de aproximadamente 1 hora de duración.
+                        Son clases grupales, dinámicas, compuestas por distintos circuitos de ejercicios que se realizan por tiempo o repeticiones donde se trabaja todo el cuerpo. Se realizan ejercicios de fuerza, resistencia y flexibilidad. Son clases de aproximadamente 1 hora de duración.
                     </div>
                 </AccordionContent>
             </AccordionItem>

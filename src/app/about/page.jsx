@@ -61,7 +61,16 @@ const AboutPage = () => {
 
                 </div>
             </div>
-            <div className=''>
+            <div className='flex flex-col'>
+
+                <video
+                    src='/cuspide-video-edited.mp4'
+                    autoPlay
+                    loop
+                    muted
+                    // // quality={100}
+                    className='w-full h-[18rem] sm:h-[40rem] object-cover opacity-70'
+                />
                 <Image
                     src='/fondo.png'
                     alt='Cuspide logo'

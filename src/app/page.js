@@ -68,7 +68,7 @@ export default function Home() {
                 className="mx-auto h-fit w-fit"
               />
               <h2 className={`${montserrat.className} sm:text-xl h-min text-lg font-black max-w-sm mx-auto text-green-700`}>{item.title}</h2>
-              <p className="text-sm leading-tight tracking-tight text-zinc-500 italic">{item.description}</p>
+              <p className="text-sm leading-tight tracking-tight text-zinc-500 ">{item.description}</p>
             </div>
           ))}
         </div>
