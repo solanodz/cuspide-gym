@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-24">
+      <section className="mb-12">
         <div className="mx-5 sm:mx-16">
           <h2 className="text-4xl max-w-7xl mx-auto sm:text-5xl text-green-700 font-bold tracking-tighter">Nuestros horarios</h2>
           <div>
@@ -55,10 +55,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-zinc-900 ">
+      <section className="bg-zinc-950 ">
         <div className="grid sm:grid-cols-1 gap-y-12 sm:gap-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0 sm:mx-16 my-24 items-center text-center mx-4 justify-center">
           {info.map((item, index) => (
-            <div key={index} className="max-w-[28rem] mx-auto sm:h-56 h-64 bg-zinc-950 border border-zinc-700 shadow-md sm:py-4 py-2 px-2 rounded-lg grid flex-col justify-around hover:scale-105 cursor-pointer duration-200">
+            <div key={index} className="max-w-[28rem] mx-auto sm:h-56 h-64 bg-zinc-900 border border-zinc-700 shadow-md sm:py-4 py-2 px-2 rounded-lg grid flex-col justify-around hover:scale-105 cursor-pointer duration-200">
               <Image
                 src='/cuspide-solo-logo.png'
                 alt='Cuspide logo'
@@ -68,7 +68,7 @@ export default function Home() {
                 className="mx-auto h-fit w-fit"
               />
               <h2 className={`${montserrat.className} sm:text-xl h-min text-lg font-black max-w-sm mx-auto text-green-700`}>{item.title}</h2>
-              <p className="text-sm leading-tight tracking-tight text-zinc-400 italic">{item.description}</p>
+              <p className="text-sm leading-tight tracking-tight text-zinc-500 italic">{item.description}</p>
             </div>
           ))}
         </div>

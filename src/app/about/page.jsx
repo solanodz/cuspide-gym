@@ -13,16 +13,16 @@ const AboutPage = () => {
                     </h1>
                     <div className={`${montserrat.className} max-w-7xl my-12 flex gap-4 flex-wrap`}>
                         <div className='py-1 text-green-700 h-20 sm:h-32 w-full sm:w-40 justify-around flex flex-col bg-gradient-to-t from-green-950 border border-green-950 to-transparent drop-shadow-md rounded-lg text-center items-center my-auto gap-2'>
-                            <p className='text-3xl sm:text-4xl font-black'>+<CountUp end={10} start={0} timer={500} /></p>
+                            <p className='text-3xl sm:text-4xl font-black'>+<CountUp end={5} start={0} timer={500} /></p>
+                            <p className='text-sm tracking-tighter sm:text-lg leading-5 font-bold'>ENTRENADORES</p>
+                        </div>
+                        <div className='py-1 text-green-700 h-20 sm:h-32 w-full sm:w-40 justify-around flex flex-col bg-gradient-to-t from-green-950 border border-green-950 to-transparent drop-shadow-md rounded-lg text-center items-center my-auto gap-2'>
+                            <p className='text-3xl sm:text-4xl font-black'>+<CountUp end={10} start={0} timer={400} /></p>
                             <p className='text-sm tracking-tighter sm:text-lg leading-5 font-bold'>AÑOS DE EXPERIENCIA</p>
                         </div>
                         <div className='py-1 text-green-700 h-20 sm:h-32 w-full sm:w-40 justify-around flex flex-col bg-gradient-to-t from-green-950 border border-green-950 to-transparent drop-shadow-md rounded-lg text-center items-center my-auto gap-2'>
-                            <p className='text-3xl sm:text-4xl font-black'>+<CountUp end={400} start={0} timer={40} /></p>
+                            <p className='text-3xl sm:text-4xl font-black'>+<CountUp end={400} start={0} timer={30} /></p>
                             <p className='text-sm tracking-tighter sm:text-lg leading-5 font-bold'>SOCIOS MENSUALES</p>
-                        </div>
-                        <div className='py-1 text-green-700 h-20 sm:h-32 w-full sm:w-40 justify-around flex flex-col bg-gradient-to-t from-green-950 border border-green-950 to-transparent drop-shadow-md rounded-lg text-center items-center my-auto gap-2'>
-                            <p className='text-3xl sm:text-4xl font-black'>+<CountUp end={5} start={0} timer={500} /></p>
-                            <p className='text-sm tracking-tighter sm:text-lg leading-5 font-bold'>ENTRENADORES</p>
                         </div>
                     </div>
                 </div>
