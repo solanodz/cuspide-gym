@@ -64,11 +64,11 @@ const AboutPage = () => {
             <div className='flex flex-col'>
 
                 <video
-                    src='/cuspide-video-edited.mp4'
+                    src='/cuspide-video-muted.mp4'
                     autoPlay
                     loop
                     muted
-                    // // quality={100}
+                    // quality={100}
                     className='w-full h-[18rem] sm:h-[40rem] object-cover opacity-70'
                 />
                 <Image
@@ -77,6 +77,7 @@ const AboutPage = () => {
                     width={2500}
                     height={2000}
                     quality={100}
+
                     className="sm:h-fit sm:w-fit md:h-fit md:w-fit sm:mx-auto justify-center object-contain brightness-50 "
                 />
             </div>
