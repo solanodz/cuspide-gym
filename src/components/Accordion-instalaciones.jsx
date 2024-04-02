@@ -18,7 +18,6 @@ const AccordionInstalaciones = () => {
             <AccordionItem value="item-2">
                 <AccordionTrigger className='text-xl font-bold text-green-700'>Máquinas</AccordionTrigger>
                 <AccordionContent>
-                    Las maquinas que tenemos son:
                     <ul className="my-2">
                         <li>• Prensa</li>
                         <li>• Hack</li>
