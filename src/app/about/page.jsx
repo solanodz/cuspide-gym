@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 const AboutPage = () => {
     return (
-        <div className='mx-auto  bg-zinc-950'>
+        <div className='mx-auto bg-zinc-950'>
             <div className='mx-5 max-w-7xl md:mx-auto pt-24 flex sm:flex-row flex-col justify-between items-start'>
                 <div>
-                    <h1 className={`${montserrat.className} antialiased tracking-tighter text-4xl sm:text-6xl font-bold text-green-700`}>
+                    <h1 className={`${montserrat.className} antialiased tracking-tighter text-3xl sm:text-5xl font-bold text-green-700`}>
                         <TextGenerateEffect words="Sobre nosotros" />
                     </h1>
                     <div className={`${montserrat.className} max-w-7xl my-12 flex gap-4 flex-wrap`}>
@@ -47,7 +47,7 @@ const AboutPage = () => {
                         quality={100}
                         className="sm:h-fit sm:w-fit md:h-[600px] md:w-fit sm:mx-auto justify-center rounded-3xl object-contain"
                     /> */}
-                    <div className=' flex flex-col w-full tracking-tight text-lg sm:text-2xl sm:mx-0 text-zinc-100  py-12 font-medium'>
+                    <div className=' flex flex-col w-full tracking-tight text-md sm:text-xl sm:mx-0 text-zinc-100  py-12 font-medium'>
                         <div className='max-w-7xl mx-auto px-3 flex flex-col gap-4'>
                             <p>
                                 Cúspide te brinda un espacio muy familiar y amigable, donde podrás entrenar con la tranquilidad de que siempre habrá alguien para ayudarte con tus entrenamientos.

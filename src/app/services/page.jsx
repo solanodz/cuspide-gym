@@ -1,21 +1,23 @@
+import AccordionInstalaciones from '@/components/Accordion-instalaciones'
 import { TextGenerateEffect } from '@/components/text-generate-effect'
 import { montserrat } from '@/ui/fonts'
 import Image from 'next/image'
 import React from 'react'
-import { FaCheck, FaCheckDouble, FaCircle } from 'react-icons/fa6'
 
 const ServicesPage = () => {
     return (
-        <div className='bg-zinc-950 '>
+        <div className='bg-zinc-950  max-w-7xl mx-auto'>
             <div className='mx-5 md:mx-20 py-24 '>
-                <h1 className={`${montserrat.className} antialiased tracking-tighter text-4xl sm:text-6xl font-bold text-green-700`}>
+                <h1 className={`${montserrat.className} antialiased tracking-tighter text-3xl sm:text-5xl my-3 font-bold text-green-700`}>
                     <TextGenerateEffect words="Nuestros servicios e instalaciones" />
                 </h1>
-                <div className='my-6'>
-                    <video
-
-                    />
+                <div className='my-'>
+                    <p className='text-sm leading-tight tracking-tight max-w-3xl md:text-md sm:text-lg font-medium bg-green-950 text-green-600 bg-opacity-70 italic p-2 border rounded-md border-green-800 '>
+                        En Cúspide Gym nos esforzamos por brindar el mejor servicio personalizado, y para eso contamos con mucho material para que nuestro servicio se destaque aún más.
+                    </p>
+                    <AccordionInstalaciones />
                 </div>
+
             </div >
         </div>
     )
