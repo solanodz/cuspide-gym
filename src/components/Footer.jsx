@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
 
             <div className='bg-zinc-900 text-xs text-muted-foreground mx-auto w-full text-center py-2'>
-                Designed and Developed by <span className='font-semibold text-white'>@solanodz</span>.
+                Developed by <Link href='https://www.linkedin.com/in/solanodz/' className='font-semibold text-white'>@solanodz</Link>.
             </div>
         </footer >
     )

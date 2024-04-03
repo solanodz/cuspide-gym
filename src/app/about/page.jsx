@@ -48,12 +48,16 @@ const AboutPage = () => {
                         className="sm:h-fit sm:w-fit md:h-[600px] md:w-fit sm:mx-auto justify-center rounded-3xl object-contain"
                     /> */}
                     <div className=' flex flex-col w-full tracking-tight text-md sm:text-xl sm:mx-0 text-zinc-100  py-12 font-medium'>
-                        <div className='max-w-7xl mx-auto px-3 flex flex-col gap-4'>
+                        <div className='max-w-7xl mx-auto font-light px-3 flex flex-col gap-4'>
                             <p>
-                                Cúspide te brinda un espacio muy familiar y amigable, donde podrás entrenar con la tranquilidad de que siempre habrá alguien para ayudarte con tus entrenamientos.
+
+                                Cúspide te ofrece un ambiente muy cálido, donde puedes entrenar con total tranquilidad, sabiendo que siempre habrá alguien disponible para asistirte durante tus sesiones de entrenamiento.
                             </p>
                             <p>
-                                Nuestros entrenadores están capacitados para ayudarte a lograr tus objetivos, ya sea mejorar tu salud o rendimiento deportivo. Confían y confiaron en nosotros deportistas amateurs y deportistas de alto nivel, como jugadores de fútbol, rugby, hockey, golf, entre otros. También personas que buscan mejorar su calidad de vida y salud. Tuvimos la experiencia de trabajar con personas de entre 10 y hasta 80 años. Sabemos sobre entrenamiento, salud y deporte siempre pensando en ayudar a nuestros clientes a cumplir sus objetivos.
+                                Nuestros entrenadores están altamente capacitados para ayudarte a alcanzar tus metas, ya sea mejorar tu salud o rendimiento deportivo. Contamos con la confianza tanto de deportistas aficionados como de élite, incluyendo futbolistas, rugbiers, jugadoras de hockey, golfistas, entre otros. Además, también recibimos a aquellos que buscan mejorar su calidad de vida y bienestar general, independientemente de su edad, hemos trabajado con personas desde los 10 hasta los 80 años.
+                            </p>
+                            <p>
+                                Con un enfoque centrado en el cliente, nuestro equipo está comprometido en brindar el mejor asesoramiento en entrenamiento, salud y deporte, siempre con el objetivo de ayudarte a cumplir tus objetivos. También contamos con conocimiento en entrenamiento de embarazadas y rehabilitación de lesiones, como desgarros musculares o postoperatorios, siempre y cuando tengan el alta médica para entrenar en el gimnasio.
                             </p>
                         </div>
                     </div>
@@ -68,8 +72,8 @@ const AboutPage = () => {
                     autoPlay
                     loop
                     muted
-                    // quality={100}
-                    className='w-full h-[18rem] sm:h-[40rem] object-cover opacity-70'
+                    quality={100}
+                    className='w-full h-[18rem] sm:h-[42rem] object-cover opacity-70'
                 />
                 <Image
                     src='/fondo.png'

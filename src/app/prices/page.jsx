@@ -18,29 +18,22 @@ const ContactPage = () => {
         {
             title: 'Precio por día',
             info: 'El tiempo es ilimitado, podes venir a la hora que quieras y quedarte el tiempo que quieras. No es vlido si salís y volves a entrar horas más tarde en el mismo día.',
-            price: '$',
-            discount: '$',
+            price: '$ No disponible aún',
+            discount: '$ No disponible aún',
             infoDiscount: 'Descuento del % pagando en efectivo.'
         },
         {
             title: 'Precio semanal',
             info: 'La duración es de 7 días de corrido desde el día que lo abonas. Por ejemplo, si pagaste un jueves, tu cuota vence el jueves de la semana siguiente.',
-            price: '$',
-            discount: '$',
+            price: '$ No disponible aún',
+            discount: '$ No disponible aún',
             infoDiscount: 'Descuento del % pagando en efectivo.'
         },
         {
             title: 'Precio 1/2 mes',
-            info: 'La duración es de 15 días de corrido desde el día que lo abonas.',
-            price: '$',
-            discount: '$',
-            infoDiscount: 'Descuento del % pagando en efectivo.'
-        },
-        {
-            title: 'Precio mensual',
-            info: 'La duración es de 30 días de corrido desde el día que lo abonas. Por ejemplo, si pagaste un 15 de mes, tu cuota mensual vence el 15 del mes siguiente.',
-            price: '$21.400',
-            discount: '$20.300',
+            info: 'La duración es de 15 días de corrido desde el día que lo abonas. Por ejemplo, si pagaste un 12 de marzo, tu cuota vence el 25 de marzo.',
+            price: '$ No disponible aún',
+            discount: '$ No disponible aún',
             infoDiscount: 'Descuento del % pagando en efectivo.'
         },
         {
@@ -48,6 +41,13 @@ const ContactPage = () => {
             info: 'El plan personalizado, solo es accesible si tenés un acuerdo con alguno de nuestros entrenadores para entrenar exclusivamente con él. Pagas menos en tu cuota mensual del gimnasio pero pagas también a tu entrenador el precio que acuerden entre ustedes. Solo es aplicable si el entrenador trabaja para Cúspide Gym.',
             price: '$17.100',
             discount: '$16.200',
+            infoDiscount: 'Descuento del % pagando en efectivo.'
+        },
+        {
+            title: 'Precio mensual',
+            info: 'La duración es de 30 días de corrido desde el día que lo abonas. Por ejemplo, si pagaste un 15 de mes, tu cuota mensual vence el 15 del mes siguiente.',
+            price: '$21.400',
+            discount: '$20.300',
             infoDiscount: 'Descuento del % pagando en efectivo.'
         },
         {

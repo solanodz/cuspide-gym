@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className='backdrop-blur-xl border-b border-zinc-800 bg-zinc-950 bg-opacity-70 drop-shadow-md py-4 min-w-screen fixed top-0 right-0 w-full z-50'>
-            <nav className=' max-w-7xl sm:mx-auto mx-5 flex justify-between items-center'>
+            <nav className=' max-w-7xl  mx-3 sm:mx-20 flex justify-between items-center'>
                 <Link href="/">
                     <Image src="/cuspide-solo-logo.png" alt="Cuspide logo" width={40} height={40} quality={100} className='' />
                 </Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div >
     )
 }
 
