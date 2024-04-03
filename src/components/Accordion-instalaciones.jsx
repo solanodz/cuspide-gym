@@ -48,7 +48,7 @@ const AccordionInstalaciones = () => {
                         <li>• Dos bancos fijos a 90°</li>
                         <li>• Dos plataformas de levantamiento</li>
                         <li>• Siete racks de sentadilla (Cuatro afuera y tres adentro)</li>
-                        <li>• Múltiples racks de sentadilla y plataformas de levantamiento</li>
+                        <li>• Dos plataformas de levantamiento</li>
                     </ul>
                 </AccordionContent>
             </AccordionItem>

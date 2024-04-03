@@ -57,7 +57,7 @@ const AboutPage = () => {
                                 Nuestros entrenadores están altamente capacitados para ayudarte a alcanzar tus metas, ya sea mejorar tu salud o rendimiento deportivo. Contamos con la confianza tanto de deportistas aficionados como de élite, incluyendo futbolistas, rugbiers, jugadoras de hockey, golfistas, entre otros. Además, también recibimos a aquellos que buscan mejorar su calidad de vida y bienestar general, independientemente de su edad, hemos trabajado con personas desde los 10 hasta los 80 años.
                             </p>
                             <p>
-                                Con un enfoque centrado en el cliente, nuestro equipo está comprometido en brindar el mejor asesoramiento en entrenamiento, salud y deporte, siempre con el objetivo de ayudarte a cumplir tus objetivos. También contamos con conocimiento en entrenamiento de embarazadas y rehabilitación de lesiones, como desgarros musculares o postoperatorios, siempre y cuando tengan el alta médica para entrenar en el gimnasio.
+                                Con un enfoque centrado en el cliente, nuestro equipo está comprometido en brindar el mejor asesoramiento en entrenamiento, salud y deporte, siempre con el objetivo de ayudarte a cumplir tus metas. También contamos con conocimiento en entrenamiento de embarazadas y rehabilitación de lesiones, como desgarros musculares o postoperatorios, siempre y cuando tengan el alta médica para entrenar en el gimnasio.
                             </p>
                         </div>
                     </div>
