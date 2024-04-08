@@ -18,7 +18,7 @@ const AccordionHorario = () => {
             <AccordionItem value="item-2">
                 <AccordionTrigger className='text-xl font-bold text-green-700'>Sábados y feriados</AccordionTrigger>
                 <AccordionContent>
-                    Los sabados y feriados el horario es cortado. <span className="font-semibold">De 08:00 a 12:00 horas por la mañana y de 16:00 a 21:00 horas por la tarde.</span> Tambien contamos con entrenadores en estos días para ayudarte.
+                    Los sabados y feriados el horario es cortado. <span className="font-semibold">De 08:00 a 12:00 horas por la mañana y de 17:00 a 21:00 horas por la tarde.</span> Tambien contamos con entrenadores en estos días para ayudarte.
                     <div className="my-4 bg-green-950 rounded-md text-dm text-green-600  px-2 py-1 flex flex-col gap-1"><IoIosWarning className="text-xl min-w-6" /> Los horarios pueden estar sujeto a modificaciones los días sábados y feriados. Consultar a través de Instagram o WhatsApp.</div>
                 </AccordionContent>
             </AccordionItem>
